@@ -1,0 +1,21 @@
+<p>Searching in zip: <%= @zip %> </p>
+<p> Page Token? <%= @token %> </p>
+<div>
+	<table>
+	  <tr>
+	    <th>Name</th>
+	    <th>Place ID</th>
+	    <th></th>
+	    <th></th>
+	  </tr>
+	<% @theaters_array.each do |info| %>
+	    <tr>
+	    	<td><%= link_to info[:name] %></td>
+	    	<td><%= info[:place_id] %></td>
+	    </tr>
+	<% end %>
+
+	</table>
+</div>
+
+<%=  link_to 'Home', root_url %>

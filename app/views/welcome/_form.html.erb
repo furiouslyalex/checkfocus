@@ -1,0 +1,7 @@
+<%= form_tag({controller: "theaters", action: "index"}) do %>
+<div>
+    <%= label_tag(:zip, "Enter Zipcode to search in:") %>
+    <%= text_field_tag(:zip) %>
+</div>
+<%= submit_tag("Search") %>
+<% end %>
