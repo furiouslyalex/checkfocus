@@ -3,10 +3,10 @@ Checkfocus::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  root "theater#index"
+  root "welcome#index"
 
-  
-  resources :theater, :only => [:index ]
+  resources :theaters
+  post '/get_zip' => 'theaters#get_zip', as: "zip"
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
