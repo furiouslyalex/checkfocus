@@ -1,13 +1,13 @@
 <h4>checkfocus</h4>
 
 <%= form_tag do %>
-	<%= label_tag(:q, "Search for theaters by Zipcode:") %>
-	<%= text_field_tag(:q) %>
+	<%= label_tag(:zip, "Search for theaters by Zipcode:") %>
+	<%= text_field_tag(:zip) %>
 	<%= submit_tag("Search") %>
 <% end %>
 
 <%= form_tag do %>
-	<%= label_tag(:q, "Search for theaters by City/State:") %>
-	<%= text_field_tag(:q) %> / <%= text_field_tag(:q) %>
+	<%= label_tag(:citystate, "Search for theaters by City/State:") %>
+	<%= text_field_tag(:city) %> / <%= text_field_tag(:state) %>
 	<%= submit_tag("Search") %>
 <% end %>

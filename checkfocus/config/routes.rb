@@ -6,7 +6,7 @@ Checkfocus::Application.routes.draw do
   root "theater#index"
 
   
-  resources :home, :only => [:index ]
+  resources :theater, :only => [:index ]
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
