@@ -28,6 +28,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'devise'
+gem 'unicorn'
 gem 'dotenv-rails'
 gem 'rest-client'
 gem 'rails_12factor', group: :production
