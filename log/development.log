@@ -6864,3 +6864,1878 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 18:40:22
 
 
 Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 18:40:22 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 19:40:38 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.8ms)
+  Rendered welcome/index.html.erb within layouts/application (12.5ms)
+  [1m[35mUser Load (2.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 114ms (Views: 96.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 19:40:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 19:40:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 19:40:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 19:40:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 19:40:39 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 19:40:43 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  Rendered theaters/list.html.erb within layouts/application (5.9ms)
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 340ms (Views: 12.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 19:40:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 19:40:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 19:40:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 19:40:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 19:40:44 -0400
+
+
+Started GET "/theaters" for 127.0.0.1 at 2014-07-07 19:41:00 -0400
+Processing by TheatersController#index as HTML
+  Rendered theaters/index.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (2.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 12ms (Views: 8.7ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 19:41:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 19:41:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 19:41:00 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 19:41:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 19:41:00 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 19:41:11 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  Rendered theaters/list.html.erb within layouts/application (3.3ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 332ms (Views: 10.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 19:41:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 19:41:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 19:41:12 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 19:41:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 19:41:12 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 20:01:57 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.3ms)
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 41ms (Views: 29.6ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:01:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:01:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:01:57 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:01:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:01:57 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:02:03 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[36m (1.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (188.0ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 00:02:03 UTC +00:00], ["google_id", "ChIJh6jFH09awokRB2IJQQ_lM2E"], ["name", "UA Court Street Stadium 12"], ["updated_at", Tue, 08 Jul 2014 00:02:03 UTC +00:00]]
+  [1m[36m (6.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJY0PJboRZwokR07zrsDqd39k"], ["name", "Sunshine Cinema"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJk4BvkoRZwokRL7SRV3ZiUJw"], ["name", "Anthology Film Archives"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  BEGIN
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJ3V0TyplZwokRQZas6j2ifL0"], ["name", "Cinema Village"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJcwBe65dZwokRkYIyxD42ge0"], ["name", "Quad Cinema"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJ_4vCq55ZwokRIjJSXWnH_0c"], ["name", "AMC Loews Village 7"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJjSKIz5NZwokRTS3NUw8-59o"], ["name", "IFC Center"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJ06HrgFBawokRFI7NI76YMkk"], ["name", "Cobble Hill Cinemas"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJLWklcJddwokRTfO4PuEkjTc"], ["name", "Linden Boulevard Multiplex Cinemas"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJ0-X7ps5EwokRRW9eUOlOuLA"], ["name", "Kent Theater"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJ4ex3fRtawokRbJjmIA_H0mo"], ["name", "Regal Cinemas Battery Park Stadium 11 Movie Theater"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJMza4HWFZwokREyXlhbnRf5E"], ["name", "Nitehawk Cinema"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (1.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJW3q6Yo1ZwokRwnpMeNyWLFs"], ["name", "Film Forum"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJC6yORFBFwokRJ0AoLB07b7c"], ["name", "Alpine"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJr0emsI9ZwokRxoxlNg31NZM"], ["name", "Angelika Film Center & Café"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJUxriNA9ZwokRMKgICTh5kHQ"], ["name", "AMC Loews Kips Bay 15"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJs8mxMBxbwokRk5PQKnskv7A"], ["name", "The Pavilion Theater"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJ_58pLKJZwokRvRwO5eftKC8"], ["name", "AMC 19Th St East 6"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJH8nOSKlfwokRqyEBoyTwZEQ"], ["name", "Jackson Heights Cinema"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00], ["google_id", "ChIJy_q2gZ5ZwokRrG27bv1NgtU"], ["name", "Village East Cinema"], ["updated_at", Tue, 08 Jul 2014 00:02:04 UTC +00:00]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  Rendered theaters/list.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 625ms (Views: 13.5ms | ActiveRecord: 239.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:02:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:02:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:02:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:02:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:02:04 -0400
+  [1m[36mTheater Load (3.2ms)[0m  [1mSELECT "theaters".* FROM "theaters" ORDER BY "theaters"."id" ASC LIMIT 1[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddZipcodeToTheater (20140708000540)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (110.9ms)[0m  [1mALTER TABLE "theaters" ADD COLUMN "zipcode" integer[0m
+  [1m[35mSQL (8.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140708000540"]]
+  [1m[36m (14.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mTheater Load (2.8ms)[0m  [1mSELECT "theaters".* FROM "theaters"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddIndexToTheaters (20140708001417)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (35.8ms)[0m  [1mALTER TABLE "theaters" ADD COLUMN "google_id" character varying(255)[0m
+PG::DuplicateColumn: ERROR:  column "google_id" of relation "theaters" already exists
+: ALTER TABLE "theaters" ADD COLUMN "google_id" character varying(255)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddIndexToTheaters (20140708001417)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (4.1ms)[0m  [1mCREATE UNIQUE INDEX "index_theaters_on_google_id" ON "theaters" ("google_id")[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140708001417"]]
+  [1m[36m (47.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 20:15:23 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.1ms)
+  Rendered welcome/index.html.erb within layouts/application (8.5ms)
+  [1m[35mUser Load (2.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 110ms (Views: 85.6ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:15:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:15:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:15:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:15:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:15:23 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:15:26 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (6.0ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 00:15:26 UTC +00:00], ["google_id", "ChIJh6jFH09awokRB2IJQQ_lM2E"], ["name", "UA Court Street Stadium 12"], ["updated_at", Tue, 08 Jul 2014 00:15:26 UTC +00:00], ["zipcode", 11216]]
+PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "index_theaters_on_google_id"
+DETAIL:  Key (google_id)=(ChIJh6jFH09awokRB2IJQQ_lM2E) already exists.
+: INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 383ms
+
+ActiveRecord::RecordNotUnique (PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "index_theaters_on_google_id"
+DETAIL:  Key (google_id)=(ChIJh6jFH09awokRB2IJQQ_lM2E) already exists.
+: INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"):
+  app/controllers/theaters_controller.rb:38:in `block in get_theaters'
+  app/controllers/theaters_controller.rb:32:in `map'
+  app/controllers/theaters_controller.rb:32:in `get_theaters'
+  app/controllers/theaters_controller.rb:13:in `create'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.6ms)
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:17:46 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mTheater Exists (8.8ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE ("theaters"."google_id" = 'ChIJh6jFH09awokRB2IJQQ_lM2E' AND "theaters"."theater" IS NULL) LIMIT 1[0m
+PG::UndefinedColumn: ERROR:  column theaters.theater does not exist
+LINE 1: ..."."google_id" = 'ChIJh6jFH09awokRB2IJQQ_lM2E' AND "theaters"...
+                                                             ^
+: SELECT  1 AS one FROM "theaters"  WHERE ("theaters"."google_id" = 'ChIJh6jFH09awokRB2IJQQ_lM2E' AND "theaters"."theater" IS NULL) LIMIT 1
+  [1m[35m (0.6ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 455ms
+
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column theaters.theater does not exist
+LINE 1: ..."."google_id" = 'ChIJh6jFH09awokRB2IJQQ_lM2E' AND "theaters"...
+                                                             ^
+: SELECT  1 AS one FROM "theaters"  WHERE ("theaters"."google_id" = 'ChIJh6jFH09awokRB2IJQQ_lM2E' AND "theaters"."theater" IS NULL) LIMIT 1):
+  app/controllers/theaters_controller.rb:38:in `block in get_theaters'
+  app/controllers/theaters_controller.rb:32:in `map'
+  app/controllers/theaters_controller.rb:32:in `get_theaters'
+  app/controllers/theaters_controller.rb:13:in `create'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.7ms)
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:18:18 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (2.0ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJh6jFH09awokRB2IJQQ_lM2E' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJY0PJboRZwokR07zrsDqd39k' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJk4BvkoRZwokRL7SRV3ZiUJw' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.5ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ3V0TyplZwokRQZas6j2ifL0' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJcwBe65dZwokRkYIyxD42ge0' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.5ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ_4vCq55ZwokRIjJSXWnH_0c' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJjSKIz5NZwokRTS3NUw8-59o' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ06HrgFBawokRFI7NI76YMkk' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.8ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJLWklcJddwokRTfO4PuEkjTc' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ0-X7ps5EwokRRW9eUOlOuLA' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ4ex3fRtawokRbJjmIA_H0mo' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (1.1ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJMza4HWFZwokREyXlhbnRf5E' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.8ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJW3q6Yo1ZwokRwnpMeNyWLFs' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.6ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJC6yORFBFwokRJ0AoLB07b7c' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJr0emsI9ZwokRxoxlNg31NZM' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.8ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJUxriNA9ZwokRMKgICTh5kHQ' LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJs8mxMBxbwokRk5PQKnskv7A' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.5ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ_58pLKJZwokRvRwO5eftKC8' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJH8nOSKlfwokRqyEBoyTwZEQ' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.5ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJy_q2gZ5ZwokRrG27bv1NgtU' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  Rendered theaters/list.html.erb within layouts/application (2.2ms)
+  [1m[35mUser Load (1.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 588ms (Views: 75.2ms | ActiveRecord: 32.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:18:19 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:18:19 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:18:19 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:18:19 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:18:19 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 20:18:22 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (7.7ms)
+  Rendered welcome/index.html.erb within layouts/application (13.3ms)
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 33ms (Views: 21.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:18:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:18:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:18:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:18:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:18:23 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:23:29 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (1.2ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJh6jFH09awokRB2IJQQ_lM2E' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.5ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJY0PJboRZwokR07zrsDqd39k' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.9ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJk4BvkoRZwokRL7SRV3ZiUJw' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ3V0TyplZwokRQZas6j2ifL0' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJcwBe65dZwokRkYIyxD42ge0' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ_4vCq55ZwokRIjJSXWnH_0c' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJjSKIz5NZwokRTS3NUw8-59o' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ06HrgFBawokRFI7NI76YMkk' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJLWklcJddwokRTfO4PuEkjTc' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ0-X7ps5EwokRRW9eUOlOuLA' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ4ex3fRtawokRbJjmIA_H0mo' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJMza4HWFZwokREyXlhbnRf5E' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJW3q6Yo1ZwokRwnpMeNyWLFs' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (1.2ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJC6yORFBFwokRJ0AoLB07b7c' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJr0emsI9ZwokRxoxlNg31NZM' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.8ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJUxriNA9ZwokRMKgICTh5kHQ' LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJs8mxMBxbwokRk5PQKnskv7A' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.6ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ_58pLKJZwokRvRwO5eftKC8' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJH8nOSKlfwokRqyEBoyTwZEQ' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJy_q2gZ5ZwokRrG27bv1NgtU' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  Rendered theaters/list.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 495ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7: 	    <th></th>
+     8: 	    <th></th>
+     9: 	  </tr>
+    10: 	<% @theaters.each do |info| %>
+    11: 	    <tr>
+    12: 	    	<td><%= link_to info[:name] %></td>
+    13: 	    </tr>
+  app/views/theaters/list.html.erb:10:in `_app_views_theaters_list_html_erb___719721226_95459020'
+  app/controllers/theaters_controller.rb:14:in `create'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.0ms)
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:24:01 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJh6jFH09awokRB2IJQQ_lM2E' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.3ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJY0PJboRZwokR07zrsDqd39k' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJk4BvkoRZwokRL7SRV3ZiUJw' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (1.2ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ3V0TyplZwokRQZas6j2ifL0' LIMIT 1
+  [1m[36m (1.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (1.9ms)[0m  BEGIN
+  [1m[36mTheater Exists (1.2ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJcwBe65dZwokRkYIyxD42ge0' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (1.5ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ_4vCq55ZwokRIjJSXWnH_0c' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJjSKIz5NZwokRTS3NUw8-59o' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ06HrgFBawokRFI7NI76YMkk' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJLWklcJddwokRTfO4PuEkjTc' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.8ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ0-X7ps5EwokRRW9eUOlOuLA' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ4ex3fRtawokRbJjmIA_H0mo' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJMza4HWFZwokREyXlhbnRf5E' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.9ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJW3q6Yo1ZwokRwnpMeNyWLFs' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJC6yORFBFwokRJ0AoLB07b7c' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJr0emsI9ZwokRxoxlNg31NZM' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.8ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJUxriNA9ZwokRMKgICTh5kHQ' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJs8mxMBxbwokRk5PQKnskv7A' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.6ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ_58pLKJZwokRvRwO5eftKC8' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mTheater Exists (1.1ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJH8nOSKlfwokRqyEBoyTwZEQ' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJy_q2gZ5ZwokRrG27bv1NgtU' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mTheater Load (3.0ms)[0m  SELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')
+  Rendered theaters/list.html.erb within layouts/application (5.2ms)
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 477ms (Views: 57.5ms | ActiveRecord: 38.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:24:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:24:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:24:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:24:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:24:02 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:25:05 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJh6jFH09awokRB2IJQQ_lM2E' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.5ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJY0PJboRZwokR07zrsDqd39k' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mTheater Exists (1.1ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJk4BvkoRZwokRL7SRV3ZiUJw' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.7ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ3V0TyplZwokRQZas6j2ifL0' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJcwBe65dZwokRkYIyxD42ge0' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.5ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ_4vCq55ZwokRIjJSXWnH_0c' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (1.1ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJjSKIz5NZwokRTS3NUw8-59o' LIMIT 1[0m
+  [1m[35m (0.9ms)[0m  ROLLBACK
+  [1m[36m (3.7ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.6ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ06HrgFBawokRFI7NI76YMkk' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJLWklcJddwokRTfO4PuEkjTc' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.5ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ0-X7ps5EwokRRW9eUOlOuLA' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ4ex3fRtawokRbJjmIA_H0mo' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJMza4HWFZwokREyXlhbnRf5E' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJW3q6Yo1ZwokRwnpMeNyWLFs' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJC6yORFBFwokRJ0AoLB07b7c' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJr0emsI9ZwokRxoxlNg31NZM' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.5ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJUxriNA9ZwokRMKgICTh5kHQ' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.8ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJs8mxMBxbwokRk5PQKnskv7A' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.6ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ_58pLKJZwokRvRwO5eftKC8' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJH8nOSKlfwokRqyEBoyTwZEQ' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJy_q2gZ5ZwokRrG27bv1NgtU' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mTheater Load (1.1ms)[0m  SELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')
+  Rendered theaters/list.html.erb within layouts/application (3.7ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 428ms (Views: 10.4ms | ActiveRecord: 28.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:25:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:25:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:25:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:25:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:25:05 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 20:27:11 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (3.6ms)
+  Rendered welcome/index.html.erb within layouts/application (13.9ms)
+  [1m[35mUser Load (3.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 143ms (Views: 120.1ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:27:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:27:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:27:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:27:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:27:11 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:27:16 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (1.5ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJh6jFH09awokRB2IJQQ_lM2E' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mTheater Exists (2.1ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJY0PJboRZwokR07zrsDqd39k' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.6ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJk4BvkoRZwokRL7SRV3ZiUJw' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ3V0TyplZwokRQZas6j2ifL0' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (1.3ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.5ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJcwBe65dZwokRkYIyxD42ge0' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ_4vCq55ZwokRIjJSXWnH_0c' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  ROLLBACK
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (1.2ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJjSKIz5NZwokRTS3NUw8-59o' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.9ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ06HrgFBawokRFI7NI76YMkk' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  ROLLBACK
+  [1m[36m (1.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.6ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJLWklcJddwokRTfO4PuEkjTc' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mTheater Exists (1.3ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ0-X7ps5EwokRRW9eUOlOuLA' LIMIT 1[0m
+  [1m[35m (1.3ms)[0m  ROLLBACK
+  [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.6ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ4ex3fRtawokRbJjmIA_H0mo' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJMza4HWFZwokREyXlhbnRf5E' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJW3q6Yo1ZwokRwnpMeNyWLFs' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJC6yORFBFwokRJ0AoLB07b7c' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (1.0ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJr0emsI9ZwokRxoxlNg31NZM' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.8ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJUxriNA9ZwokRMKgICTh5kHQ' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  ROLLBACK
+  [1m[36m (5.6ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.8ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJs8mxMBxbwokRk5PQKnskv7A' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ_58pLKJZwokRvRwO5eftKC8' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.5ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJH8nOSKlfwokRqyEBoyTwZEQ' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (1.6ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJy_q2gZ5ZwokRrG27bv1NgtU' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36mTheater Load (0.6ms)[0m  [1mSELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')[0m
+  Rendered theaters/list.html.erb within layouts/application (2.3ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 659ms (Views: 7.7ms | ActiveRecord: 44.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:27:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:27:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:27:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:27:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:27:16 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 20:28:32 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (3.1ms)
+  Rendered welcome/index.html.erb within layouts/application (10.0ms)
+  [1m[35mUser Load (2.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 103ms (Views: 83.6ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:28:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:28:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:28:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:28:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:28:32 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:28:38 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (2.7ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJh6jFH09awokRB2IJQQ_lM2E' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJY0PJboRZwokR07zrsDqd39k' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.7ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJk4BvkoRZwokRL7SRV3ZiUJw' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ3V0TyplZwokRQZas6j2ifL0' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.5ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJcwBe65dZwokRkYIyxD42ge0' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ_4vCq55ZwokRIjJSXWnH_0c' LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJjSKIz5NZwokRTS3NUw8-59o' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ06HrgFBawokRFI7NI76YMkk' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJLWklcJddwokRTfO4PuEkjTc' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ0-X7ps5EwokRRW9eUOlOuLA' LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.6ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ4ex3fRtawokRbJjmIA_H0mo' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.8ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJMza4HWFZwokREyXlhbnRf5E' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.8ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJW3q6Yo1ZwokRwnpMeNyWLFs' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJC6yORFBFwokRJ0AoLB07b7c' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJr0emsI9ZwokRxoxlNg31NZM' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJUxriNA9ZwokRMKgICTh5kHQ' LIMIT 1[0m
+  [1m[35m (2.2ms)[0m  ROLLBACK
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.6ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJs8mxMBxbwokRk5PQKnskv7A' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ_58pLKJZwokRvRwO5eftKC8' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.3ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJH8nOSKlfwokRqyEBoyTwZEQ' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJy_q2gZ5ZwokRrG27bv1NgtU' LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  ROLLBACK
+  [1m[36mTheater Load (0.7ms)[0m  [1mSELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')[0m
+  Rendered theaters/list.html.erb within layouts/application (3.0ms)
+  [1m[35mUser Load (1.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 467ms (Views: 12.6ms | ActiveRecord: 33.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:28:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:28:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:28:38 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:28:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:28:38 -0400
+  [1m[36mTheater Load (1.4ms)[0m  [1mSELECT "theaters".* FROM "theaters" ORDER BY "theaters"."id" ASC LIMIT 1[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 20:36:48 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (4.1ms)
+  Rendered welcome/index.html.erb within layouts/application (11.7ms)
+  [1m[35mUser Load (1.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 108ms (Views: 88.2ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:36:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:36:48 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:36:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:36:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:36:48 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:36:51 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (3.9ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJh6jFH09awokRB2IJQQ_lM2E' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJY0PJboRZwokR07zrsDqd39k' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.3ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJk4BvkoRZwokRL7SRV3ZiUJw' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ3V0TyplZwokRQZas6j2ifL0' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.3ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJcwBe65dZwokRkYIyxD42ge0' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ_4vCq55ZwokRIjJSXWnH_0c' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJjSKIz5NZwokRTS3NUw8-59o' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ06HrgFBawokRFI7NI76YMkk' LIMIT 1[0m
+  [1m[35m (21.9ms)[0m  ROLLBACK
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.9ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJLWklcJddwokRTfO4PuEkjTc' LIMIT 1
+  [1m[36m (2.7ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ0-X7ps5EwokRRW9eUOlOuLA' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ4ex3fRtawokRbJjmIA_H0mo' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJMza4HWFZwokREyXlhbnRf5E' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJW3q6Yo1ZwokRwnpMeNyWLFs' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJC6yORFBFwokRJ0AoLB07b7c' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (1.0ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJr0emsI9ZwokRxoxlNg31NZM' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJUxriNA9ZwokRMKgICTh5kHQ' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (1.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (0.7ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJs8mxMBxbwokRk5PQKnskv7A' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJ_58pLKJZwokRvRwO5eftKC8' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mTheater Exists (1.4ms)[0m  SELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJH8nOSKlfwokRqyEBoyTwZEQ' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTheater Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE "theaters"."google_id" = 'ChIJy_q2gZ5ZwokRrG27bv1NgtU' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36mTheater Load (1.1ms)[0m  [1mSELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')[0m
+  Rendered theaters/list.html.erb within layouts/application (3.0ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 456ms (Views: 7.9ms | ActiveRecord: 54.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:36:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:36:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:36:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:36:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:36:51 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddIndexToTheaters2 (20140708003805)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (4.4ms)[0m  [1mCREATE UNIQUE INDEX "index_theaters_on_google_id_and_zipcode" ON "theaters" ("google_id", "zipcode")[0m
+  [1m[35mSQL (2.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140708003805"]]
+  [1m[36m (29.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 20:38:46 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (3.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.1ms)
+  [1m[35mUser Load (1.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 99ms (Views: 82.7ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:38:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:38:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:38:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:38:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:38:46 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:38:49 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[36mTheater Load (1.5ms)[0m  [1mSELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')[0m
+  Rendered theaters/list.html.erb within layouts/application (3.5ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 309ms (Views: 8.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:38:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:38:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:38:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:38:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:38:49 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:39:24 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[36mTheater Load (1.1ms)[0m  [1mSELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')[0m
+  Rendered theaters/list.html.erb within layouts/application (3.2ms)
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 146ms (Views: 10.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 20:39:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 20:39:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 20:39:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 20:39:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 20:39:24 -0400
+  [1m[36mTheater Load (1.1ms)[0m  [1mSELECT "theaters".* FROM "theaters" ORDER BY "theaters"."id" ASC LIMIT 1[0m
+  [1m[35mTheater Load (0.7ms)[0m  SELECT "theaters".* FROM "theaters" ORDER BY "theaters"."id" DESC LIMIT 1
+  [1m[36mTheater Load (0.6ms)[0m  [1mSELECT "theaters".* FROM "theaters"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:42:24 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+Completed 500 Internal Server Error in 149ms
+
+SyntaxError (/home/alex/dev/checkfocus/app/models/theater.rb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+	validates_uniqueness_of [:google_id,:zipcode] on: :create
+	                                                ^):
+  app/controllers/theaters_controller.rb:14:in `create'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (43.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:43:48 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+Completed 500 Internal Server Error in 131ms
+
+SyntaxError (/home/alex/dev/checkfocus/app/models/theater.rb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+	validates_uniqueness_of :google_id, :scope => :zipcode on: :create
+	                                                         ^):
+  app/controllers/theaters_controller.rb:14:in `create'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.4ms)
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:44:46 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTheater Exists (3.2ms)[0m  [1mSELECT 1 AS one FROM "theaters" WHERE ("theaters"."google_id" = 'ChIJh6jFH09awokRB2IJQQ_lM2E' AND "theaters"."zipcode" = 11216) LIMIT 1[0m
+  [1m[35mSQL (11.6ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 00:44:47 UTC +00:00], ["google_id", "ChIJh6jFH09awokRB2IJQQ_lM2E"], ["name", "UA Court Street Stadium 12"], ["updated_at", Tue, 08 Jul 2014 00:44:47 UTC +00:00], ["zipcode", 11216]]
+PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "index_theaters_on_google_id"
+DETAIL:  Key (google_id)=(ChIJh6jFH09awokRB2IJQQ_lM2E) already exists.
+: INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 361ms
+
+ActiveRecord::RecordNotUnique (PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "index_theaters_on_google_id"
+DETAIL:  Key (google_id)=(ChIJh6jFH09awokRB2IJQQ_lM2E) already exists.
+: INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"):
+  app/controllers/theaters_controller.rb:40:in `block in get_theaters'
+  app/controllers/theaters_controller.rb:34:in `map'
+  app/controllers/theaters_controller.rb:34:in `get_theaters'
+  app/controllers/theaters_controller.rb:13:in `create'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.7ms)
+  [1m[36m (13.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (3.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTheaters (20140627030945)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (17.9ms)[0m  [1mCREATE TABLE "theaters" ("id" serial primary key, "name" character varying(255), "google_id" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (2.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140627030945"]]
+  [1m[36m (1.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateReviews (20140627031046)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (5.1ms)[0m  [1mCREATE TABLE "reviews" ("id" serial primary key, "theater_id" integer, "user_id" integer, "rating" integer, "review_text" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140627031046"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+Migrating to DeviseCreateUsers (20140627034033)
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (20.2ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" character varying(255), "last_sign_in_ip" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (2.7ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (3.3ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140627034033"]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+Migrating to AddZipcodeToTheater (20140708000540)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "theaters" ADD COLUMN "zipcode" integer[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140708000540"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Migrating to AddIndexToTheaters2 (20140708003805)
+  [1m[35m (0.8ms)[0m  BEGIN
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "index_theaters_on_google_id_and_zipcode" ON "theaters" ("google_id", "zipcode")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140708003805"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 20:56:26 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+Completed 500 Internal Server Error in 153ms
+
+SyntaxError (/home/alex/dev/checkfocus/app/models/theater.rb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+	validates_uniqueness_of [:google_id,:zipcode] on: :create
+	                                                ^):
+  app/controllers/theaters_controller.rb:14:in `create'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 21:01:00 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (3.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.8ms)
+  Rendered welcome/index.html.erb within layouts/application (6.6ms)
+  [1m[35mUser Load (1.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 88ms (Views: 71.6ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:01:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:01 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 21:01:07 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[36mTheater Load (1.2ms)[0m  [1mSELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')[0m
+  Rendered theaters/list.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 271ms (Views: 9.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:07 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:01:07 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 21:01:30 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[35mTheater Load (0.7ms)[0m  SELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')
+  Rendered theaters/list.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 153ms (Views: 5.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:01:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:30 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:30 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 21:01:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.6ms)
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:01:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:33 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 21:01:36 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[36mTheater Load (0.7ms)[0m  [1mSELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')[0m
+  Rendered theaters/list.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 189ms (Views: 6.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:36 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:01:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:01:36 -0400
+  [1m[36mTheater Load (1.1ms)[0m  [1mSELECT "theaters".* FROM "theaters" ORDER BY "theaters"."id" ASC LIMIT 1[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 21:05:18 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.7ms)
+  Rendered welcome/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 65ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:05:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:05:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:05:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:05:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:05:18 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 21:05:21 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[35mTheater Load (2.9ms)[0m  SELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')
+  Rendered theaters/list.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 188ms (Views: 10.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:05:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:05:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:05:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:05:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:05:21 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 21:05:49 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[36mTheater Load (1.1ms)[0m  [1mSELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')[0m
+  Rendered theaters/list.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 128ms (Views: 6.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:05:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:05:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:05:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:05:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:05:49 -0400
+  [1m[36m (52.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (4.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTheaters (20140627030945)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (7.5ms)[0m  [1mCREATE TABLE "theaters" ("id" serial primary key, "name" character varying(255), "google_id" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140627030945"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+Migrating to CreateReviews (20140627031046)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (5.2ms)[0m  [1mCREATE TABLE "reviews" ("id" serial primary key, "theater_id" integer, "user_id" integer, "rating" integer, "review_text" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140627031046"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Migrating to DeviseCreateUsers (20140627034033)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (10.9ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" character varying(255), "last_sign_in_ip" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (6.9ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (5.7ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (3.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140627034033"]]
+  [1m[36m (2.9ms)[0m  [1mCOMMIT[0m
+Migrating to AddZipcodeToTheater (20140708000540)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "theaters" ADD COLUMN "zipcode" integer[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140708000540"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 21:11:37 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.9ms)
+  Rendered welcome/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 81ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:11:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:11:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:11:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:11:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:11:37 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 21:11:40 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[35mTheater Load (13.9ms)[0m  SELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')
+  Rendered theaters/list.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 148ms (Views: 6.9ms | ActiveRecord: 13.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:11:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:11:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:11:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:11:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:11:40 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 21:12:04 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.9ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:12:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:12:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:12:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:12:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:12:04 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 21:12:06 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[36mTheater Load (0.6ms)[0m  [1mSELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')[0m
+  Rendered theaters/list.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 118ms (Views: 6.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:12:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:12:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:12:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:12:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:12:06 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 21:13:38 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[35mTheater Load (1.3ms)[0m  SELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')
+  Rendered theaters/list.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 133ms (Views: 11.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:13:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:13:39 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:13:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:13:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:13:39 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 21:13:43 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.5ms)
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:13:43 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:13:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:13:43 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:13:43 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:13:43 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 21:13:47 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"06105", "commit"=>"Search"}
+  [1m[36mTheater Load (0.5ms)[0m  [1mSELECT "theaters".* FROM "theaters" WHERE (zipcode = '06105')[0m
+  Rendered theaters/list.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 102ms (Views: 4.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:13:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:13:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:13:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:13:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:13:47 -0400
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-07-07 21:15:26 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (2.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (40.4ms)
+Completed 200 OK in 147ms (Views: 122.5ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:15:26 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:26 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:26 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:26 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:26 -0400
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-07 21:15:28 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 51ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-07-07 21:15:30 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "user"=>{"email"=>"alex.buell@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (1.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'alex.buell@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 7ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "user"=>{"email"=>"alex.buell@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 102ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:30 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:15:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:30 -0400
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-07-07 21:15:33 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "user"=>{"email"=>"alex.buell@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'alex.buell@gmail.com' ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 7ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "user"=>{"email"=>"alex.buell@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 106ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:15:33 -0400
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-07-07 21:15:35 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:35 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:15:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:35 -0400
+
+
+Started POST "/users" for 127.0.0.1 at 2014-07-07 21:15:38 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "user"=>{"email"=>"alex.buell@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mUser Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'alex.buell@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (10.2ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 01:15:38 UTC +00:00], ["email", "alex.buell@gmail.com"], ["encrypted_password", "$2a$10$lA8LoEGO5dbDNX.xo5X6XeT99e9Rm/sc0CpYEOiZVEbzKfWNpHfc2"], ["updated_at", Tue, 08 Jul 2014 01:15:38 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.6ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = 1[0m  [["last_sign_in_at", Tue, 08 Jul 2014 01:15:38 UTC +00:00], ["current_sign_in_at", Tue, 08 Jul 2014 01:15:38 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Tue, 08 Jul 2014 01:15:38 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 179ms (ActiveRecord: 15.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 21:15:39 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (3.4ms)
+  Rendered welcome/index.html.erb within layouts/application (5.7ms)
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:15:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:39 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 21:15:42 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"11216", "commit"=>"Search"}
+  [1m[35mTheater Load (0.7ms)[0m  SELECT "theaters".* FROM "theaters" WHERE (zipcode = '11216')
+  Rendered theaters/list.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 234ms (Views: 6.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:15:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:15:42 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 21:16:02 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+  [1m[35mUser Load (3.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 20ms (Views: 16.2ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:16:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:16:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:16:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:16:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:16:02 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 21:16:05 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"06105", "commit"=>"Search"}
+  [1m[36mTheater Load (0.6ms)[0m  [1mSELECT "theaters".* FROM "theaters" WHERE (zipcode = '06105')[0m
+  Rendered theaters/list.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (1.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 136ms (Views: 6.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:16:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:16:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:16:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:16:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:16:05 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-07 21:23:06 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.9ms)
+  Rendered welcome/index.html.erb within layouts/application (6.7ms)
+  [1m[35mUser Load (1.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 106ms (Views: 86.3ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:23:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:23:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:23:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:23:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:23:07 -0400
+
+
+Started POST "/theaters" for 127.0.0.1 at 2014-07-07 21:23:09 -0400
+Processing by TheatersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuAphYr20czzpm17lKs7z8jDAlVIRP0oGMo4SccdcLg=", "zip"=>"06105", "commit"=>"Search"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (7.3ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJW7Ow9dKs54kRQ4G9EOoh_s0"], ["name", "Bow Tie Cinema Palace 17 & Odyssey Theater"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJ5Ty9yWhT5okRTDOl3NcKGUU"], ["name", "Bushnell Memorial Theater"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[35m (77.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJXZvxTDtT5okR6iBhJEY4YsI"], ["name", "Cinestudio"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJazCDNWNT5okR9jNkG1Wym60"], ["name", "Hartford Stage"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJfy1lhklT5okR7Lwk4YpvXNU"], ["name", "Real Art Ways Inc"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJIw_hWGRT5okRcHx4WWkuOxw"], ["name", "TheaterWorks"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJFSheEq6s54kRZ3Wv7qbcAQc"], ["name", "Opus Inc-Act Up Theater Co"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJ6epu0hlT5okRAJei2H5w4SQ"], ["name", "Webster Theater"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJqUeughpT5okR5LVbd8PX6lA"], ["name", "Art Cinema"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJrd_U0Umr54kRxI5NyGtSUKk"], ["name", "Lincoln Theater"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJ-cMZ0-2s54kR_r7vn3Cqisc"], ["name", "Bow Tie Cinemas"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJm-gkhnpT5okRCs2Vl40Lt54"], ["name", "Hartford Spotlight Stadium 4"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJ4b6CN-qs54kRZsyWfij0-zE"], ["name", "Roberts Theater"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJvREv0umq54kRuLkwjjg7tnM"], ["name", "Digiplex Bloomfield"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJu5dm3zWt54kRupG3a1MBrX8"], ["name", "NCTC Performing Arts Theatre"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJB_ak6YVU5okR_i_zav1c1Y0"], ["name", "XFINITY Theatre"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJGbssR-us54kRg4H1FNTOcyA"], ["name", "Travelers Science Dome Planetarium"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJP3BZbeys54kRHptYVCFxkiM"], ["name", "Blue Back Square"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJZ77EI2VT5okRwvQcaotRNXI"], ["name", "Unified Theater"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "theaters" ("created_at", "google_id", "name", "updated_at", "zipcode") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["google_id", "ChIJu0mV0rxX5okRwkJtlbY6ZnI"], ["name", "Rave Cinemas"], ["updated_at", Tue, 08 Jul 2014 01:23:09 UTC +00:00], ["zipcode", 6105]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mTheater Load (0.6ms)[0m  [1mSELECT "theaters".* FROM "theaters" WHERE (zipcode = '06105')[0m
+  Rendered theaters/list.html.erb within layouts/application (7.6ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 650ms (Views: 13.5ms | ActiveRecord: 130.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-07 21:23:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-07 21:23:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-07 21:23:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-07 21:23:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-07 21:23:09 -0400
