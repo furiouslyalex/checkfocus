@@ -1,3 +1,13 @@
-<p>Returned Theaters</p>
+<p>
+  <h2>Reviews for <%= @theater.name %> near <%= @theater.zipcode %> </h2>
+</p>
+<%= link_to "Submit a Review", new_theater_review_path(:theater_id => @theater.id) %> 
 
-<%= @zip %>
+
+<% @reviews.each do |r| %>
+		<p>
+		  <strong>Review From: <%= @user.email %></strong>
+		</p>
+		<p>Rating: <%= r.rating %> </p>
+		<p><%= r.review_text %> </p>
+<% end %>

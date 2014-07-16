@@ -1,0 +1,13 @@
+<%= form_for([@review.theater, @review]) do |f| %>
+
+	<div class="field">
+	   	<%= f.label :rating %><br>
+    	<%= f.number_field :rating %>
+	</div>
+	<div class="field">
+	    <%= f.label :review_text %><br>
+	    <%= f.text_field :review_text %>
+    </div>
+  <%= f.submit %>
+
+<% end %>

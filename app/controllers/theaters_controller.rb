@@ -4,8 +4,12 @@ require 'json'
 class TheatersController < ApplicationController
 
 	skip_before_action :authenticate_user!, only: :index
+	before_filter :load_review
 
 	def index
+	end
+
+	def new
 	end
 
 	def create
@@ -20,7 +24,14 @@ class TheatersController < ApplicationController
 	end
 
 	def show
+		@theater = Theater.find(params[:id])
+		@reviews = Review.where(:theater_id => params[:id])
+		@user = User.find(1)
 	end
+
+	def load_resource
+      	@theater = Theater.find(params[:id])
+    end   
 
 	def get_theaters(zip)		
 
@@ -28,7 +39,7 @@ class TheatersController < ApplicationController
 		key = ENV["GOOGLE_PLACES_API_KEY"]
 		places = JSON.load(RestClient.get("https://maps.googleapis.com/maps/api/place/textsearch/json?query=movie+theaters+in+#{@zip}&radius=5000&sensor=true&key=#{key}"))
 		
-		@token = places['next_page_token']
+		#@token = places['next_page_token']
 		#places2 =  JSON.load(RestClient.get("https://maps.googleapis.com/maps/api/place/nearbysearch/json?pagetoken=#{@token}&radius=5000&sensor=true&key=#{key}"))
 		
 		places['results'].map do |t1|

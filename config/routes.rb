@@ -5,7 +5,12 @@ Checkfocus::Application.routes.draw do
 
   root "welcome#index"
 
-  resources :theaters
+  resources :theaters do
+    resources :reviews
+  end
+
+  resources :reviews
+
   post '/get_zip' => 'theaters#get_zip', as: "zip"
 
   # You can have the root of your site routed with "root"

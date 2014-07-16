@@ -1,5 +1,4 @@
 <p>Searching in zip: <%= @zip %> </p>
-<p> Page Token? <%= @token %> </p>
 <div>
 	<table>
 	  <tr>
@@ -9,7 +8,7 @@
 	  </tr>
 	<% @theaters.each do |info| %>
 	    <tr>
-	    	<td><%= link_to info.name %></td>
+	    	<td><%= link_to info.name, info %></td>
 	    </tr>
 	<% end %>
 
