@@ -4,7 +4,7 @@ require 'json'
 class TheatersController < ApplicationController
 
 	skip_before_action :authenticate_user!, only: :index
-	before_filter :load_review
+	#before_filter :load_review
 
 	def index
 	end
